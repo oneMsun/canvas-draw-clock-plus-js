@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title></title>
+  <title>数字时钟</title>
   <style>
     canvas {
       box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.5);
@@ -17,16 +17,16 @@
   <script>
     const canvas = document.getElementById('canvas');
     const ctx = canvas.getContext('2d');
-    
+
     const W = canvas.width = 500;
     const H = canvas.height = 500;
-    
+
     const clock = new Clock({
       x: W/2,
       y: H/2,
       r: 250
     }).init(ctx);
-    
+
   </script>
 </body>
 </html>
